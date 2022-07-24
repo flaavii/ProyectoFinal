@@ -9,16 +9,16 @@ html {
   font-size: 62.5%; }
 
 body {
-  background: linear-gradient(180deg, #d5eff2 0%, #f2f2f2 31%);
+  background: linear-gradient(180deg, #d5eff2 13%, #f2f2f2 40%);
   overflow-x: hidden 100%; }
 
-h3 {
+h2 {
   font-size: 2rem;
   padding-bottom: 4vh;
   animation-name: textAlpha;
   animation-duration: 3s; }
   @media (min-width: 768px) {
-    h3 {
+    h2 {
       font-size: 6rem; } }
 
 @keyframes textAlpha {
@@ -68,7 +68,7 @@ header div img {
 iframe {
   width: 100%;
   height: 20vh;
-  margin-top: 2%; }
+  margin-top: 4%; }
   @media (min-width: 1024px) {
     iframe {
       width: 80%;
@@ -78,13 +78,17 @@ iframe {
 
 .carouselCustom {
   border-radius: 4px;
-  border: 3px solid #515958; }
+  border: 2px solid #515958; }
   @media (min-width: 768px) {
     .carouselCustom {
       padding: auto; } }
 
 .card-body {
   background-color: #F2F2F2; }
+
+#card-text {
+  font-size: 1.3rem;
+  text-align: right; }
 
 #div {
   background-color: #92A4A6;
@@ -99,7 +103,7 @@ iframe {
   overflow: hidden;
   line-height: 2rem;
   text-align: center;
-  padding: 5% 8% 0 8%; }
+  padding: 3% 4% 0 4%; }
   @media (min-width: 490px) {
     #p, .p2 {
       font-size: 1.5rem; } }
@@ -117,7 +121,8 @@ iframe {
 
 #h1 {
   font-size: 3.7rem;
-  font-weight: 600; }
+  font-weight: 600;
+  padding-top: 5%; }
   @media (min-width: 490px) {
     #h1 {
       font-size: 6rem; } }
@@ -126,7 +131,7 @@ iframe {
       font-size: 9.2rem; } }
 
 .caja {
-  background-color: rgba(216, 245, 250, 0.5);
+  background-color: #BFD6D9;
   overflow: hidden;
   border-radius: 35px 0px 35px 0px;
   moz-border-radius: 35px 0px 35px 0px;
@@ -134,32 +139,21 @@ iframe {
   border: none;
   text-align: center; }
 
-main section img {
-  border-radius: 53px 53px 53px 53px;
-  -moz-border-radius: 53px 53px 53px 53px;
-  -webkit-border-radius: 53px 53px 53px 53px;
-  border: 0px solid #000000; }
-  @media (min-width: 1024px) {
-    main section img {
-      border-radius: 53px 0px 53px 0px;
-      -moz-border-radius: 53px 0px 53px 0px;
-      -webkit-border-radius: 53px 0px 53px 0px;
-      border: 0px solid #000000; } }
-
 #imgBorder {
-  padding-right: 0%;
-  padding-left: 2%;
-  margin-right: 0; }
-  @media (min-width: 1024px) {
-    #imgBorder {
-      padding: 0 5%; } }
+  padding-left: 6%;
+  padding-right: 2%; }
+  #imgBorder:hover {
+    transform: scale(1.2);
+    transition: all 0.5s; }
 
 #nav {
   width: 100%;
-  background-color: rgba(216, 245, 250, 0.5); }
+  background-color: linear-gradient(172deg, #d8f5fa 66%, #a8bdbf 100%); }
 
 nav img {
-  height: 18vh; }
+  height: 8.5vh;
+  padding-top: 5%;
+  margin: 5%; }
   @media (min-width: 768px) {
     nav img {
       height: 21vh; } }
@@ -172,7 +166,7 @@ ul {
 
 li {
   font-size: 1.3rem;
-  padding-right: 3vw; }
+  padding: 0 3vw; }
   @media (min-width: 490px) {
     li {
       font-size: 1.5rem;
@@ -204,7 +198,8 @@ input, .btn-form {
 
 #pie {
   margin-top: 10vh;
-  font-size: 1.1rem;
+  font-size: 0.9rem;
+  padding-right: 2rem;
   display: flex;
   justify-content: center;
   align-items: center; }
@@ -220,16 +215,15 @@ footer img {
   margin: 2vh; }
   @media (min-width: 768px) {
     footer img {
-      width: 9.5vh;
+      width: 9vh;
       margin: 2vh; } }
   @media (min-width: 1024px) {
     footer img {
       width: 12vh; } }
 
 footer a img {
-  width: 3.5vh;
-  display: inline-flex;
-  align-content: space-around; }
+  padding-top: 5%;
+  width: 4vh; }
   @media (min-width: 768px) {
     footer a img {
       width: 5vh; } }

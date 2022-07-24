@@ -15,7 +15,7 @@ body{
 	overflow-x: hidden 100%;
 		}
 
-h3{
+h2{
 	font-size: $textMd;
 	padding-bottom: 4vh;
 	animation-name: textAlpha;
@@ -83,7 +83,7 @@ width: 99%;
 iframe{
 	width: 100%;
 	height: 20vh;
-	margin-top: 2%;
+	margin-top: 4%;
 	@media (min-width: 1024px){
 		width: 80%;
 		margin-left: 10%;
@@ -94,7 +94,7 @@ iframe{
 
 .carouselCustom {
 	border-radius:4px;
-	border: 3px solid map-get($map:$variables, $key:'logoOscuro');
+	border: 2px solid map-get($map:$variables, $key:'logoOscuro');
 	@media (min-width: 768px){
 	padding: auto; 
 }
@@ -104,6 +104,11 @@ iframe{
 	background-color: map-get($map:$paleta, $key:'cardColor');
 
 	}
+
+#card-text {
+	font-size: $textXs;
+	text-align: right;
+}
 
 #div{
 	background-color: map-get($map:$paleta, $key:'divColor');
@@ -120,7 +125,7 @@ iframe{
 	overflow: hidden;
 	line-height: $lineP;
 	text-align: center;
-	padding: 5% 8% 0 8%;
+	padding: 3% 4% 0 4%;
 	@media (min-width: 490px){
 		font-size: $textSm;
 				}
@@ -145,6 +150,7 @@ iframe{
 #h1{
 	font-size: $textXl;
 	font-weight: $bold;
+	padding-top: 5%;
 	@media (min-width: 490px){
 	font-size: $textXll;
 		}
@@ -155,7 +161,7 @@ iframe{
 	}
 
 .caja { 
-background-color: map-get($map:$paleta, $key:'navColor');
+background-color: map-get($map:$variables, $key:'logoApagado');
 overflow: hidden;
 border-radius: 35px 0px 35px 0px;
 moz-border-radius: 35px 0px 35px 0px;
@@ -164,25 +170,15 @@ border: none;
 text-align: center;
 }
 
-main section img {
-border-radius: 53px 53px 53px 53px;
--moz-border-radius: 53px 53px 53px 53px;
--webkit-border-radius: 53px 53px 53px 53px;
-border: 0px solid #000000;
-	@media (min-width: 1024px){
-		border-radius: 53px 0px 53px 0px;
-	-moz-border-radius: 53px 0px 53px 0px;
-	-webkit-border-radius: 53px 0px 53px 0px;
-	border: 0px solid #000000;
+
+#imgBorder{
+	padding-left: 6%;
+	padding-right: 2%;
+	&:hover {
+		transform:scale(1.2);
+		transition: all 0.5s;
 	}
 }
 
-#imgBorder{
-	padding-right: 0%;
-	padding-left: 2%;
-	margin-right: 0;
-		@media (min-width: 1024px){
-			padding: 0 5%;
-		}
-}
+
 
