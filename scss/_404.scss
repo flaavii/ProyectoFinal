@@ -1,0 +1,20 @@
+.error {
+	background: url("../img/lascabanas404.webp") no-repeat center fixed;
+	background-size: cover;
+	padding-top: 35%;
+	text-align: center;
+}
+
+.fontError{
+	font-color: map-get($map:$variables, $key:'colorCielo');
+	font-size: $textXl;
+	font-weight: $bold;
+	
+}
+
+.imgError{
+
+		width: 16vw;
+		padding-top: 5%;
+		}
+	

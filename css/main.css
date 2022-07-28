@@ -60,7 +60,7 @@ header div img {
       width: 96%;
       border-width: 2.8px;
       border-radius: 2px;
-      bottom: 7%; } }
+      bottom: 5%; } }
   @media (min-width: 1024px) {
     .img-move-2 {
       width: 98%; } }
@@ -84,11 +84,12 @@ iframe {
       padding: auto; } }
 
 .card-body {
-  background-color: #F2F2F2; }
+  background-color: #F2F2F2;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); }
 
 #card-text {
   font-size: 1.3rem;
-  text-align: right; }
+  text-align: left; }
 
 #div {
   background-color: #92A4A6;
@@ -156,17 +157,17 @@ nav img {
   margin: 5%; }
   @media (min-width: 768px) {
     nav img {
-      height: 21vh; } }
+      height: 16vh; } }
   @media (min-width: 1024px) {
     nav img {
-      height: 27vh; } }
+      height: 20vh; } }
 
 ul {
   text-align: right; }
 
 li {
   font-size: 1.3rem;
-  padding: 0 3vw; }
+  padding: 0 1.5vw; }
   @media (min-width: 490px) {
     li {
       font-size: 1.5rem;
@@ -222,7 +223,8 @@ footer img {
       width: 12vh; } }
 
 footer a img {
-  padding-top: 5%;
+  padding-top: 4%;
+  margin: 2%;
   width: 4vh; }
   @media (min-width: 768px) {
     footer a img {
@@ -240,3 +242,18 @@ footer ul li {
   text-decoration: none;
   text-align: center;
   text-transform: none; }
+
+.error {
+  background: url("../img/lascabanas404.webp") no-repeat center fixed;
+  background-size: cover;
+  padding-top: 35%;
+  text-align: center; }
+
+.fontError {
+  font-color: #9ABBD9;
+  font-size: 3.7rem;
+  font-weight: 600; }
+
+.imgError {
+  width: 16vw;
+  padding-top: 5%; }

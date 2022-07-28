@@ -68,11 +68,12 @@ border-style: solid;
 padding: 0;
 width: 99%;
 
+
 @media (min-width: 768px){
 	width: 96%; 
 	border-width: 2.8px;
 	border-radius: 2px;
-	bottom: 7%;
+	bottom: 5%;
 	}
 
 @media (min-width: 1024px){
@@ -102,12 +103,13 @@ iframe{
 
 .card-body{
 	background-color: map-get($map:$paleta, $key:'cardColor');
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
 
 	}
 
 #card-text {
 	font-size: $textXs;
-	text-align: right;
+	text-align: left;
 }
 
 #div{

@@ -9,11 +9,11 @@
 	padding-top: 5%;
 	margin: 5%;
 	@media (min-width: 768px){
-		height: 21vh;
+		height: 16vh;
 	}
 
 	@media (min-width: 1024px){
-		height: 27vh;
+		height: 20vh;
 		}
 
 	}
@@ -25,7 +25,7 @@
 			
 			li{
 				font-size: $textXs;
-				padding:0 3vw;
+				padding:0 1.5vw;
 				@media (min-width: 490px){
 					font-size: $textSm;
 					text-transform: uppercase;
