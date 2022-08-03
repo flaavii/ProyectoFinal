@@ -13,11 +13,11 @@
 		}
 }
 
-footer img{
-	width: 8vh;
+.footer-img {
+	width: 7.7vh;
 	margin: 2vh;
 	@media (min-width: 768px){
-		width: 9vh;
+		width: 8vh;
 		margin: 2vh;
 			}
 
@@ -31,22 +31,11 @@ footer img{
 			footer a img{
 			padding-top:4%;
 			margin: 2%;
-			width: 4vh;
+			width: 3.5vh;
 		
 			@media (min-width: 768px){
-				width: 5vh;
+				width: 4vh;
 			}
-
-			@media (min-width: 1024px){
-				width: 6vh;
-	
-			}
-
-			@media (min-width: 1200px){
-				width: 7vh;
-				margin: 3vh;
-
-				}
 
 			}
 					

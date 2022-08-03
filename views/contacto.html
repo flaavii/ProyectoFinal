@@ -54,14 +54,16 @@
 	<!-- ends nav -->
 	<header class="text-center">
 		<h1 id="h1"> LAS CABAÑITAS </h1>
+		<hr id="hr">
 		<h2>CONTACTO</h2>
 	</header>
 	<!-- ends header -->
-	<main class="text-bold">
+	<main class="text-bold recorte-1200">
 		<form action="contacto.php">
 			<fieldset class="form">
-				<legend> Información personal </legend>
-				<label for="nombre">Nombre:</label>
+				<p id="p" class="mb-5 text-center">Completá este formulario y nos comunicaremos a la breverdad</p>
+				<legend>Información personal:</legend>
+					<label for="nombre">Nombre:</label>
 			    <input type="text" name="nombre" placeholder="Nombre">
 			    <label for="apellido"> Apellido: </label>
 			    <input type="text" name="apellido" placeholder="Apellido">
@@ -70,7 +72,7 @@
 			    <label for="email"> Email: </label>
 			    <input type="email" name="email" placeholder="ejemplo@mail.com">
 			    
-			    <label class="mt-5" for="mensaje"> Mensaje: </label>
+			    <label class="mt-5" for="mensaje"> Dejanos tu mensaje: </label>
 			    <textarea name="mensaje" id="mensaje"></textarea>
 			    <input class="btn-form mt-3" type="reset" name="Restablecer">
 			    <input class="btn-form mt-3" type="submit" name="Enviar">
@@ -84,7 +86,10 @@
 		
 		<ul>
 			<li>
-				<img class="rounded-circle" src="../img/favicon.svg" alt="favicon de las cabanas"></li>
+				<a href="../index.html">
+				<img class="rounded-circle footer-img" src="../img/favicon.svg" alt="favicon de las cabanas">
+			</a>
+		</li>
 			<li>Complejo La Belen</li>
 			<li>Ruta Provincial 1, Km 11</li>
 			<li>Carpintería, San Luis, Argentina</li>

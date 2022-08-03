@@ -2,8 +2,8 @@
 	font-family: $fontFamily;
 	color: map-get($map:$variables, $key:'logoOscuroII');
 	padding: 0;
-	margin: 0;
-		}
+	margin: 0; 
+	}
 
 html{
 	font-size: 62.5%;
@@ -32,24 +32,30 @@ h2{
 
 }
 
-header div img{
-	padding-top: 0.5vh;
-		}
-
 
 .img-wrapper {
+padding-top: 5%;
 position: relative;
 overflow: hidden;
 margin: 0 auto;
+@media(min-width: 385px){
+	padding-top: 0;
+}
 }
 
 .img-move {
+position: relative;
+@media(min-width: 380px){
 position: absolute;
-
+}
 }
 
 .img-move-1 {
+display: none;
 left: 0;
+@media(min-width: 380px){
+display: inline;
+}
 @media (min-width: 768px){
 width: 90%;
 	}	
@@ -60,14 +66,21 @@ width: 90%;
 }
 
 .img-move-2 {
-left: 2%; 
-bottom: 10%;
+width: 427px; 
+height: 240px;
 border-color: map-get($map:$variables, $key:'logoOscuro');
 border-width:1.9px;
 border-style: solid;
+
+@media(min-width: 380px){
+width: auto;
+height: auto;
+left: 2%; 
+bottom: 10%;
 padding: 0;
 width: 99%;
-
+}
+ 
 
 @media (min-width: 768px){
 	width: 96%; 
@@ -109,7 +122,6 @@ iframe{
 
 #card-text {
 	font-size: $textXs;
-	text-align: left;
 }
 
 #div{
@@ -136,7 +148,7 @@ iframe{
 		line-height: $lineForm;
 	}
 		@media (min-width: 1024px){
-			font-size: $textLg;	
+			font-size: $textMd;	
 			line-height: $linePXlarge;
 			
 			}
@@ -153,7 +165,10 @@ iframe{
 	font-size: $textXl;
 	font-weight: $bold;
 	padding-top: 5%;
-	@media (min-width: 490px){
+	@media(min-width: 380px){
+		font-size: $textxXl;
+	}
+	@media (min-width: 500px){
 	font-size: $textXll;
 		}
 	
@@ -177,8 +192,32 @@ text-align: center;
 	padding-left: 6%;
 	padding-right: 2%;
 	&:hover {
-		transform:scale(1.2);
-		transition: all 0.5s;
+		transform:scale(1.1);
+		transition: all 0.3s;
+	}
+}
+
+
+.recorte-1200 {
+	@media(min-width: 1200px){
+		margin-left: 8%;
+		margin-right: 8%;
+		}
+}
+
+#hr{
+	opacity: .50;
+	margin: 3%;
+	border-top: 1.8px solid;
+	border-radius: 2px;
+	@media(min-width: 380px){
+		margin: 2% 10% 8% 10% ;
+	}
+	@media(min-width: 450px){
+		margin: 2% 10% 4% 10% ;
+	}
+	@media(min-width: 1200px){
+		margin: 2% 10% 2% 10% ;
 	}
 }
 
