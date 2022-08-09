@@ -23,5 +23,4 @@ input{
 .btn-form {
 	@extend input;
 	border: 2.4px solid map-get($map:$variables, $key:'colorCieloII'); 
-
 }

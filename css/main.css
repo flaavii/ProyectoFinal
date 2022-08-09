@@ -276,14 +276,27 @@ footer ul li {
 .error {
   background: url("../img/lascabanas404.webp") no-repeat center fixed;
   background-size: cover;
-  padding-top: 35%;
-  text-align: center; }
+  text-align: center;
+  padding: 0;
+  margin: 0; }
 
-.fontError {
-  font-color: #9ABBD9;
+#fontError {
+  color: white;
   font-size: 3.5rem;
   font-weight: 600; }
 
-.imgError {
-  width: 16vw;
-  padding-top: 5%; }
+#glass {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  webkit-backdrop-filter: blur(5px);
+  order: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 10%;
+  margin: 6% 1% 0% 3%; }
+  @media (min-width: 1024px) {
+    #glass {
+      padding: 5%; } }
+
+#glass-container {
+  padding: 0% 5%; }
