@@ -261,7 +261,7 @@ input, .btn-form {
 
 footer a img {
   padding-top: 4%;
-  margin: 2%;
+  margin: 2% 2% 0 2%;
   width: 3.5vh; }
   @media (min-width: 768px) {
     footer a img {
@@ -281,9 +281,11 @@ footer ul li {
   margin: 0; }
 
 #fontError {
-  color: white;
   font-size: 3.5rem;
   font-weight: 600; }
+
+.fontColor {
+  color: white; }
 
 #glass {
   background: rgba(255, 255, 255, 0.2);
@@ -293,10 +295,12 @@ footer ul li {
   webkit-backdrop-filter: blur(5px);
   order: 1px solid rgba(255, 255, 255, 0.3);
   padding: 10%;
-  margin: 6% 1% 0% 3%; }
+  margin-top: 6%;
+  margin-left: 2%; }
   @media (min-width: 1024px) {
     #glass {
-      padding: 5%; } }
+      padding: 5%;
+      margin-left: 0; } }
 
 #glass-container {
   padding: 0% 5%; }
