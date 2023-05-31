@@ -1,0 +1,52 @@
+#pie{
+	margin-top: 10vh;
+	font-size: $textXxs; 
+	padding-right: 2rem;
+
+	@include d-flex (center, center);
+
+	@media (min-width: 768px){
+		font-size: $textSm;
+			}
+			@media (min-width: 1024px){
+				font-size: $textM;
+		}
+}
+
+.footer-img {
+	width: 7.7vh;
+	margin: 2vh;
+	@media (min-width: 768px){
+		width: 8vh;
+		margin: 2vh;
+			}
+
+		@media (min-width: 1024px){
+			width: 12vh;
+	
+			}
+
+		}
+		
+			footer a img{
+			padding-top:4%;
+			margin: 2% 2% 0 2%;
+			width: 3.5vh;
+		
+			@media (min-width: 768px){
+				width: 4vh;
+			}
+
+			}
+					
+					footer ul li{
+						list-style: none;
+						text-decoration: none;
+						text-align: center;
+						text-transform: none;
+
+							}
+						
+
+
+

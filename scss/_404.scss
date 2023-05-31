@@ -1,0 +1,39 @@
+
+.error {
+	background: url("../img/lascabanas404.webp") no-repeat center fixed;
+	background-size: cover;
+	text-align: center;
+	padding: 0;
+	margin: 0;
+}
+
+#fontError{
+	font-size: $textXl;
+	font-weight: $bold;
+}
+
+.fontColor{
+	color: map-get($map:$paleta, $key:'whiteColor');
+}
+
+#glass {
+	background: rgba(255, 255, 255, 0.2);
+	border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+	box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+	backdrop-filter: blur(5px);
+	webkit-backdrop-filter: blur(5px);
+	order: 1px solid rgba(255, 255, 255, 0.3);
+	padding: 10%;
+	margin-top: 6%;
+	margin-left: 2%;
+	@media (min-width: 1024px){
+		padding: 5%;
+		margin-left: 0;
+	}
+	
+}
+
+#glass-container {
+	padding: 0% 5%;
+}
+	

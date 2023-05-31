@@ -1,0 +1,313 @@
+/*@import url("https://fonts.googleapis.com/css2? family= Montserrat:wght@300;400;600 & display=swap");*/
+@import url('https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600&display=swap');
+
+* {
+  font-family: 'Cairo', sans-serif;
+  color: #252624;
+  padding: 0;
+  margin: 0; }
+
+html {
+  font-size: 62.5%; }
+
+body {
+  background: linear-gradient(180deg, #d5eff2 13%, #f2f2f2 40%);
+  overflow-x: hidden 100%; }
+
+h2 {
+  font-size: 2rem;
+  padding-bottom: 4vh;
+  animation-name: textAlpha;
+  animation-duration: 3s; }
+  @media (min-width: 768px) {
+    h2 {
+      font-size: 6rem; } }
+
+@keyframes textAlpha {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 2; } }
+
+.img-wrapper {
+  padding-top: 5%;
+  position: relative;
+  overflow: hidden;
+  margin: 0 auto; }
+  @media (min-width: 385px) {
+    .img-wrapper {
+      padding-top: 0; } }
+
+.img-move {
+  position: relative; }
+  @media (min-width: 380px) {
+    .img-move {
+      position: absolute; } }
+
+.img-move-1 {
+  display: none;
+  left: 0; }
+  @media (min-width: 380px) {
+    .img-move-1 {
+      display: inline; } }
+  @media (min-width: 768px) {
+    .img-move-1 {
+      width: 90%; } }
+  @media (min-width: 1024px) {
+    .img-move-1 {
+      width: 98%; } }
+
+.img-move-2 {
+  width: 427px;
+  height: 240px;
+  border-color: #515958;
+  border-width: 1.9px;
+  border-style: solid; }
+  @media (min-width: 380px) {
+    .img-move-2 {
+      width: auto;
+      height: auto;
+      left: 2%;
+      bottom: 10%;
+      padding: 0;
+      width: 99%; } }
+  @media (min-width: 768px) {
+    .img-move-2 {
+      width: 96%;
+      border-width: 2.8px;
+      border-radius: 2px;
+      bottom: 5%; } }
+  @media (min-width: 1024px) {
+    .img-move-2 {
+      width: 98%; } }
+
+iframe {
+  width: 100%;
+  height: 20vh;
+  margin-top: 4%; }
+  @media (min-width: 1024px) {
+    iframe {
+      width: 80%;
+      margin-left: 10%;
+      margin-right: 10%;
+      border-radius: 6px; } }
+
+.carouselCustom {
+  border-radius: 4px;
+  border: 2px solid #515958; }
+  @media (min-width: 768px) {
+    .carouselCustom {
+      padding: auto; } }
+
+.card-body {
+  background-color: #F2F2F2;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); }
+
+#card-text {
+  font-size: 1.3rem; }
+
+#div {
+  background-color: #92A4A6;
+  color: #252624;
+  font-size: 1.5rem; }
+  @media (min-width: 1024px) {
+    #div {
+      font-size: 2rem; } }
+
+#p, .p2 {
+  font-size: 1.36rem;
+  overflow: hidden;
+  line-height: 2rem;
+  text-align: center;
+  padding: 3% 4% 0 4%;
+}
+  @media (min-width: 490px) {
+    #p, .p2 {
+      font-size: 1.5rem; } }
+  @media (min-width: 768px) {
+    #p, .p2 {
+      font-size: 1.8rem;
+      line-height: 3rem; } }
+  @media (min-width: 1024px) {
+    #p, .p2 {
+      font-size: 2rem;
+      line-height: 3rem; } }
+
+.p2 {
+  padding: 0% 8%; }
+
+#h1 {
+  font-size: 3.5rem;
+  font-weight: 600;
+  padding-bottom: 2%; }
+  @media (min-width: 380px) {
+    #h1 {
+      font-size: 4.4rem; } }
+  @media (min-width: 500px) {
+    #h1 {
+      font-size: 6rem; } }
+  @media (min-width: 768px) {
+    #h1 {
+      font-size: 10rem; } }
+
+.caja {
+  background-color: #BFD6D9;
+  overflow: hidden;
+  border-radius: 35px 0px 35px 0px;
+  moz-border-radius: 35px 0px 35px 0px;
+  webkit-border-radius: 35px 0px 35px 0px;
+  border: none;
+  text-align: center;
+   }
+
+#imgBorder {
+  padding-left: 6%;
+  padding-right: 2%; }
+  #imgBorder:hover {
+    transform: scale(1.1);
+    transition: all 0.3s; }
+
+@media (min-width: 1200px) {
+  .recorte-1200 {
+    margin-left: 2%;
+    margin-right: 2%; } }
+
+#hr {
+  opacity: .50;
+  margin: 3%;
+  border-top: 1.8px solid;
+  border-radius: 2px; }
+  @media (min-width: 380px) {
+    #hr {
+      margin: 2% 10% 8% 10%; } }
+  @media (min-width: 450px) {
+    #hr {
+      margin: 2% 10% 4% 10%; } }
+  @media (min-width: 1200px) {
+    #hr {
+      margin: 2% 10% 2% 10%; } }
+
+#nav {
+  width: 100%;
+  background-color: linear-gradient(172deg, #d8f5fa 66%, #a8bdbf 100%); }
+
+nav img {
+  height: 8.5vh;
+  padding-top: 5%;
+  margin: 5%; }
+  @media (min-width: 768px) {
+    nav img {
+      height: 12vh; } }
+  @media (min-width: 1024px) {
+    nav img {
+      height: 16vh;
+      padding-left: 5%; } }
+
+ul {
+  text-align: right; }
+
+li {
+  font-size: 1.3rem;
+  padding: 0 1.5vw; }
+  @media (min-width: 490px) {
+    li {
+      font-size: 1.5rem;
+      text-transform: uppercase; } }
+  @media (min-width: 768px) {
+    li {
+      font-size: 1.8rem; } }
+
+.form {
+  margin: 5%;
+  padding: 5%;
+  font-size: 1.5rem;
+  line-height: 3rem;
+  display: flex;
+  flex-direction: column; }
+
+input, .btn-form {
+  background-color: white;
+  border: 2px solid #92A4A6;
+  border-radius: 12px;
+  margin-top: 2%; }
+  input:hover, .btn-form:hover {
+    background: radial-gradient(circle, white 0%, #d5eff2 100%);
+    transition: all 2s;
+    cursor: text; }
+
+.btn-form {
+  border: 2.4px solid #4B7BA6; }
+
+#pie {
+  margin-top: 10vh;
+  font-size: 0.9rem;
+  padding-right: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+  @media (min-width: 768px) {
+    #pie {
+      font-size: 1.5rem; } }
+  @media (min-width: 1024px) {
+    #pie {
+      font-size: 1.8rem; } }
+
+.footer-img {
+  width: 7.7vh;
+  margin: 2vh; }
+  @media (min-width: 768px) {
+    .footer-img {
+      width: 8vh;
+      margin: 2vh; } }
+  @media (min-width: 1024px) {
+    .footer-img {
+      width: 12vh; } }
+
+footer a img {
+  padding-top: 4%;
+  margin: 2% 2% 0 2%;
+  width: 3.5vh; }
+  @media (min-width: 768px) {
+    footer a img {
+      width: 4vh; } }
+
+footer ul li {
+  list-style: none;
+  text-decoration: none;
+  text-align: center;
+  text-transform: none; }
+
+.error {
+  background: url("../img/lascabanas404.webp") no-repeat center fixed;
+  background-size: cover;
+  text-align: center;
+  padding: 0;
+  margin: 0; }
+
+#fontError {
+  font-size: 3.5rem;
+  font-weight: 600; }
+
+.fontColor {
+  color: white; }
+
+#glass {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 30% 70% 70% 30% / 30% 30% 70% 70%;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(5px);
+  webkit-backdrop-filter: blur(5px);
+  order: 1px solid rgba(255, 255, 255, 0.3);
+  padding: 10%;
+  margin-top: 6%;
+  margin-left: 2%; }
+  @media (min-width: 1024px) {
+    #glass {
+      padding: 5%;
+      margin-left: 0; } }
+
+#glass-container {
+  padding: 0% 5%; }
+
+
+
